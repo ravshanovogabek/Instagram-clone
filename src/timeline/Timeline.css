@@ -1,0 +1,20 @@
+.timeline {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.timeline__left {
+    flex: 0.7;
+    display: flex; /* Add display flex to make the posts side by side */
+    flex-direction: column; /* Set column direction to stack posts vertically */
+}
+
+.timeline__posts {
+    display: flex; /* Add display flex to make the posts side by side */
+    flex-direction: row; /* Set row direction to position posts horizontally */
+}
+
+.timeline__right {
+    flex: 0.3;
+}
